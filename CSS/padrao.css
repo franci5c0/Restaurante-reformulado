@@ -15,9 +15,13 @@ header.topo {
   /* height: 100px; */
   /* justify-content: space-between; */
   /* justify-content: center; */
-  background-image: url(../IMAGENS/background-candy.jpg);
-  background-position: 0px 145px;
+  background-image: url(../IMAGENS/choco.jpg);
+  background-position: 0px 232px;
+  background-size: cover;
   text-align: center;
+  background-size: cover;
+  /* background-blend-mode: multiply; */ /* mistura com as cores do rgba (a imagem) */
+
   /* padding: 50px; */
   align-items: center;
   /* h1.main-tittle {
@@ -32,13 +36,24 @@ header.topo {
   }
 }
 
+hr.line {
+  height: 1px;
+  background-color: black;
+  border: 1px black;
+}
+
 section.sessao {
   /* background-color: var(--background-main);
   height: 100%; */
-  background-image: url(../IMAGENS/background-candy.jpg);
-  /* background-size: cover; */
-
+  background-image: url(../IMAGENS/solid.jpg);
+  background-size: cover;
+  background-color: rgba(126, 65, 24, 0.6);
+  background-blend-mode: multiply;
   article.artigo {
     height: 500px;
   }
+}
+
+footer.rodape {
+  height: 50px;
 }
