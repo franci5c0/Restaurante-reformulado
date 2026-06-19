@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,24 +6,39 @@
 }
 
 :root {
-  --background-topo: #c71585;
+  /* --background-topo: #c71585;
+  --background-main: #da70d6; */
 }
 
-.topo {
-  background-color: var(--background-topo);
+header.topo {
+  /* background-color: var(--background-topo); */
   /* height: 100px; */
   /* justify-content: space-between; */
   /* justify-content: center; */
-  padding: 50px;
-  h1 {
+  background-image: url(../IMAGENS/background-candy.jpg);
+  background-position: 0px 145px;
+  text-align: center;
+  /* padding: 50px; */
+  align-items: center;
+  /* h1.main-tittle {
     color: white;
     text-align: center;
-  }
-  img {
-    width: 100px;
-    /* margin: 10px; */
-    /* border-radius: 70px; */
-  }
-  /* .div-logo {
+    font-family: "Croissant One";
+    -webkit-text-stroke: 1px black;
   } */
+
+  img.image {
+    width: 400px;
+  }
+}
+
+section.sessao {
+  /* background-color: var(--background-main);
+  height: 100%; */
+  background-image: url(../IMAGENS/background-candy.jpg);
+  /* background-size: cover; */
+
+  article.artigo {
+    height: 500px;
+  }
 }
