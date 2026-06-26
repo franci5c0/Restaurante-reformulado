@@ -24,12 +24,17 @@ header.topo {
 
   /* padding: 50px; */
   align-items: center;
-  /* h1.main-tittle {
-    color: white;
+   h1.main-tittle {
+    color: #E6E6FA;
     text-align: center;
     font-family: "Croissant One";
-    -webkit-text-stroke: 1px black;
-  } */
+    /* -webkit-text-stroke: 1px black; */
+  } 
+
+  h2.second-tittle {
+    color: #D8BFD8;
+  }
+
   div.topdiv {
     display: flex;
     justify-content: center;
