@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text: #d8bfd8;
+}
+
+header.topo {
+  /* background-color: var(--background-topo); */
+  /* height: 100px; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  background-image: url(../IMAGENS/top-footer.jpg);
+  background-position: 0px 232px;
+  background-size: cover;
+  text-align: center;
+  background-size: cover;
+  /* background-blend-mode: multiply; */ /* mistura com as cores do rgba (a imagem) */
+
+  /* padding: 50px; */
+  align-items: center;
+  h1.main-tittle {
+    color: #e6e6fa;
+    text-align: center;
+    font-family: "Croissant One";
+    /* -webkit-text-stroke: 1px black; */
+  }
+
+  h2.second-tittle {
+    color: var(--text);
+  }
+
+  div.topdiv {
+    display: flex;
+    justify-content: center;
+    img.image {
+      width: 400px;
+    }
+  }
+}
+
+hr.line {
+  height: 1px;
+  background-color: black;
+  border: 1px black;
+}
+
+section.sessao {
+  background-image: url(../IMAGENS/background-main.webp);
+  background-position: 0px -290px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(126, 65, 24, 0.6);
+  background-blend-mode: multiply;
+  display: grid;
+  grid-template-columns: repeat(3, 495px);
+  article.artigo {
+    align-items: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+
+    img {
+      width: 170px;
+      margin: 20px;
+      box-shadow: 0px 2px 2px 5px black;
+      border-radius: 30px;
+      /* filter: sepia(30%); */
+    }
+  }
+}
+
+footer.rodape {
+  background-image: url(../IMAGENS/top-footer.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  div.media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    h2.media-tittle {
+      font-family: "Croissant One";
+      color: var(--text);
+      margin: 15px;
+    }
+    img.img-footer {
+      width: 70px;
+      height: auto;
+    }
+  }
+  div.payment {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    img.payment-img {
+      width: 100px;
+    }
+    h3.payment-tittle {
+      font-family: "Croissant One";
+      font-size: 25px;
+      color: var(--text);
+    }
+  }
+
+  article.about {
+    img.about-img {
+      width: 150px;
+      margin-right: 32px;
+    }
+  }
+}
