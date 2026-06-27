@@ -10,19 +10,22 @@
 }
 
 header.topo {
+  display: flex;
+    flex-direction: column;
   /* background-color: var(--background-topo); */
   /* height: 100px; */
   /* justify-content: space-between; */
   /* justify-content: center; */
-  background-image: url(../IMAGENS/top-footer.jpg);
-  background-position: 0px 232px;
+  background-image: url(../IMAGENS/top-footer.png);
+  /* background-position: 0px 232px; */
   background-size: cover;
   text-align: center;
   background-size: cover;
-  /* background-blend-mode: multiply; */ /* mistura com as cores do rgba (a imagem) */
-
-  /* padding: 50px; */
   align-items: center;
+  background-repeat: no-repeat;
+  img.image {
+      width: 400px;
+    }
   h1.main-tittle {
     color: #e6e6fa;
     text-align: center;
@@ -34,13 +37,6 @@ header.topo {
     color: var(--text);
   }
 
-  div.topdiv {
-    display: flex;
-    justify-content: center;
-    img.image {
-      width: 400px;
-    }
-  }
 }
 
 hr.line {
@@ -50,7 +46,7 @@ hr.line {
 }
 
 section.sessao {
-  background-image: url(../IMAGENS/background-main.webp);
+  background-image: url(../IMAGENS/choco-background.png);
   background-position: 0px -290px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,7 +72,7 @@ section.sessao {
 }
 
 footer.rodape {
-  background-image: url(../IMAGENS/top-footer.jpg);
+  background-image: url(../IMAGENS/top-footer.png);
   background-size: cover;
   display: flex;
   justify-content: space-between;
