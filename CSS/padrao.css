@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,6 +30,8 @@ header.topo {
 
   h2.second-tittle {
     color: var(--text);
+    font-family: "Croissant One";
+      font-size: 17px;
   }
 
 }
@@ -54,13 +57,6 @@ section.sessao {
     display: flex;
     flex-direction: column;
     margin: 60px;
-
-    img {
-      width: 170px;
-      margin: 20px;
-      box-shadow: 0px 2px 2px 5px black;
-      border-radius: 30px;
-    }
   }
 }
 

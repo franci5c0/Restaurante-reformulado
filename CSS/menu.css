@@ -1,0 +1,17 @@
+article.menu-article {
+    background-image: url(../IMAGENS/choco-background.png);
+    background-position: 0px -290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(126, 65, 24, 0.6);
+    background-blend-mode: multiply;
+    display: flex;
+
+    div.div-menu {
+        display: flex;
+
+        img.img-menu {
+            width: 170px;
+        }
+    }
+}
