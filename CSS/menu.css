@@ -11,7 +11,9 @@ article.menu-article {
         display: flex;
 
         img.img-menu {
-            width: 170px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
     }
 }
