@@ -1,14 +1,20 @@
 article.menu-article {
     background-image: url(../IMAGENS/choco-background.png);
-    background-position: 0px -290px;
-    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(126, 65, 24, 0.6);
     background-blend-mode: multiply;
-    display: flex;
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        justify-items: center;
 
     div.div-menu {
-        display: flex;
+    display: flex;
+    margin: 50px;
+        flex-direction: column;
+        text-align: center;
+        color: var(--text);
+        font-size: 20px;
 
         img.img-menu {
             border-radius: 10px;
