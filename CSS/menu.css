@@ -9,7 +9,6 @@ article.menu-article {
         justify-items: center;
 
     div.div-menu {
-    display: flex;
     margin: 50px;
         flex-direction: column;
         text-align: center;
@@ -21,6 +20,19 @@ article.menu-article {
             border-radius: 10px;
             width: 200px;
             box-shadow: 3px 2px 3px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        label.quantity-label {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        input.quantity-input {
+            width: 60px;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
         }
     }
 }
